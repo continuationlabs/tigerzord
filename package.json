@@ -1,0 +1,31 @@
+{
+  "name": "tigerzord",
+  "version": "0.0.1",
+  "description": "bcrypt.hash as a lambda function.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "belly-button && lab -t 100 -a code -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/continuationlabs/tigerzord.git"
+  },
+  "keywords": [
+    "lambda",
+    "bcrypt",
+    "aws"
+  ],
+  "author": "Continuation Labs <contact@continuation.io> (http://continuation.io/)",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "0.8.7"
+  },
+  "devDependencies": {
+    "belly-button": "3.1.0",
+    "code": "3.0.2",
+    "lab": "11.0.1"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  }
+}
