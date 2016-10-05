@@ -18,14 +18,14 @@
   "author": "Continuation Labs <contact@continuation.io> (http://continuation.io/)",
   "license": "MIT",
   "dependencies": {
-    "bcryptjs": "2.3.0"
+    "bcrypt": "0.8.7"
   },
   "devDependencies": {
-    "aws-sdk": "2.6.1",
+    "aws-sdk": "2.6.6",
     "belly-button": "3.x.x",
-    "code": "3.x.x",
+    "code": "4.x.x",
     "lab": "11.x.x",
-    "lambundaler": "0.7.0"
+    "lambundaler": "0.9.x"
   },
   "engines": {
     "node": ">=4.0.0"
