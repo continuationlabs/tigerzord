@@ -17,6 +17,10 @@ console.log('tigerzord deployment sequence has been initiated');
 Lambundaler({
   entry: Path.resolve(__dirname, '..', 'lib', 'index.js'),
   export: 'hash',
+  exclude: ['bcrypt'],
+  install: {
+    pkg: Path.resolve(__dirname, '..', 'package.json')
+  },
   deploy: {
     config: AWS_CONFIG,
     role: AWS_ROLE,
