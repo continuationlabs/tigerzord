@@ -38,11 +38,11 @@ describe('tigerzord()', () => {
 
     it('callsback with an error if event.plainText not a string with length', (done) => {
       Tigerzord.hash({ plainText: null }, null, (err, result) => {
-        expect(err).to.be.an.error(TypeError, 'you did not supply a plainText value to hash');
+        expect(err).to.be.an.error(TypeError, 'plainText must be a string');
         expect(result).to.be.null();
 
         Tigerzord.hash({}, null, (err, result) => {
-          expect(err).to.be.an.error(TypeError, 'you did not supply a plainText value to hash');
+          expect(err).to.be.an.error(TypeError, 'plainText must be a string');
           expect(result).to.be.null();
           done();
         });
