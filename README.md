@@ -3,8 +3,8 @@
 [![Current Version](https://img.shields.io/npm/v/tigerzord.svg)](https://www.npmjs.org/package/tigerzord)
 [![Build Status](https://travis-ci.org/continuationlabs/tigerzord.svg?branch=master)](https://travis-ci.org/continuationlabs/tigerzord)
 ![Dependencies](http://img.shields.io/david/continuationlabs/tigerzord.svg)
+[![belly-button-style](https://img.shields.io/badge/eslint-bellybutton-4B32C3.svg)](https://github.com/continuationlabs/belly-button)
 
-[![belly-button-style](https://cdn.rawgit.com/continuationlabs/belly-button/master/badge.svg)](https://github.com/continuationlabs/belly-button)
 
 <img src="https://raw.github.com/continuationlabs/tigerzord/master/images/tigerzord.jpg" />
 
